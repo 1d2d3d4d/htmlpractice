@@ -7,8 +7,9 @@
     padding: 10px;
     margin-bottom: 10px;
     text-align: center;
-    color: aqua;
-    background-color: brown;
+    color: rgb(248, 255, 255);
+    background-color: rgb(7, 6, 6);
+    font-family:'Times New Roman', Times, serif;
     font-style: bold;
     font-size: 20px;
  }
@@ -51,12 +52,13 @@ li {
 }
 body {
 
-    background-color: rgb(226, 166, 166);
+    background-color:rgb(104, 10, 10) ;
   }
   p{
-    color: rgb(247, 0, 255);
-    font-size:15px;
-    margin-left: 10px; 
+    color: black;
+    font-family:Georgia, 
+    font: size 16px;px;
+    margin: 10px; 
     padding: 10px
   }
   ul {
@@ -78,28 +80,105 @@ body {
     text-decoration: none;
   }
  .grid{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+  background-color: #0a0909;  
+  margin-left: 300px;
+  max-width: fit-content;
+  border-radius: 20px;
+  margin-top: 20px;
+  display: grid;
+  border: 1px solid black;
+  padding: 5px;
+  box-sizing: border-box;
+  grid-template-columns: repeat(4,75px);
   }
-  .wraper > div{
-    flex: 1 1 120px;
-
-  }
-
-  .calc-container{
-    padding: 10px;
-    margin: 10px;;
-  }
-
-  .btn{
-    font-size: 15px;
-    color: #fff;
-    background-color: rgb(126, 192, 126);
-    padding: 10px;
-    margin: 2px;
-    border: 1px solid #678;
+  button{
+    height: 60px;
+    background-color: #110f0f;
+    border: 2px;
     border-radius: 10px;
+    border-color:#fff ;
+    margin: 5px;
+    min-height: 50px;
+    box-shadow: rgb(173, 77, 77);
   }
+
   
+  .Display{
+    grid-column: span 4;
+    border-radius: 10px;
+    background-color: rgb(185, 178, 178);
+
+  }
+
+  .btn1{
+    font-size: 30px;
+    color:#fff;
+    background-color: black;
+    font-weight: bold;
+  }
+  .btn2{
+    background-color: rgb(43, 255, 15);
+    color: rgb(15, 14, 14);
+    font-size: 30px;
+    font-weight: bold;
+    border-color: #bbd157;
+  }
+  .btn3{background-color: red;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    }
+    .btn4{
+      background-color: orange;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    }
+    .btn1:hover {
+      background-color: gray;
+    }
+    .btn2:hover:hover {
+      background-color:#accc20;
+    }
+    .btn3:hover:hover {
+      background-color: rgb(58, 50, 46);
+    }
+    .btn4:hover:hover {
+      background-color: rgb(88, 13, 187);
+    }
+ nav {
+    background-color: rgb(51, 45, 45);
+    display: flex;
+    justify-content: left;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    box-shadow: 2px 2px 4px red;
+    list-style-type: none;
+  }
+  nav a {
+    display: block;
+    color: #f0ebeb;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+}
+  nav a:hover {
+    background-color: black;
+    margin: 10px;
+    padding: 5px;
+    color:#775454;
+    transition-duration: 0.4s;
+  }
+  .hover{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #33;
+} 
   
   
