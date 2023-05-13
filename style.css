@@ -52,7 +52,7 @@ li {
 }
 body {
 
-    background-color:rgb(104, 10, 10) ;
+    background-color:rgb(250, 241, 241) ;
   }
   p{
     color: black;
@@ -180,5 +180,8 @@ body {
     overflow: hidden;
     background-color: #33;
 } 
-  
-  
+@media(300px<=width<780px) {
+  body{
+    background:#12ee2f;
+  }
+} 
